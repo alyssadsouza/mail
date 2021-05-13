@@ -1,0 +1,40 @@
+textarea {
+    min-height: 400px;
+}
+
+.inbox-email {
+    border: 1px solid rgb(250, 250, 250);
+    margin-top:5px;
+    padding:5px;
+    display:block;
+    background-color: rgb(250, 250, 250);
+    color:black;
+}
+
+.sender, .subject, .timestamp{
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.sender {
+    font-weight: 625;
+}
+
+.timestamp {
+    position:relative;
+    color: silver;
+    float:right;
+}
+
+a, a:visited, a:hover {
+    text-decoration: none;
+}
+
+.inbox-email:hover {
+    background: rgb(245, 245, 245);
+}
+
+.unread {
+    border: 1px solid rgb(250, 250, 250);
+    background-color: white;
+}
